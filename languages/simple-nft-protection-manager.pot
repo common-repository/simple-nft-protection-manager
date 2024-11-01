@@ -1,0 +1,604 @@
+# Copyright (C) 2023 Simple NFT Members
+# This file is distributed under the same license as the Simple NFT Members package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple NFT Protection Manager 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-nft-"
+"members\n"
+"POT-Creation-Date: 2023-04-18 12:08+0900\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: __;_n;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:74 includes/admin.php:75 includes/views.php:86
+msgid "SNPM general setting"
+msgstr ""
+
+#: includes/admin.php:83 includes/admin.php:84
+#: includes/defaultValue.php:200 includes/defaultValue.php:541
+#: includes/views.php:139 includes/views.php:158
+msgid "Token new issue"
+msgstr ""
+
+#: includes/admin.php:92 includes/admin.php:93 includes/views.php:195
+msgid "Create token MetaData"
+msgstr ""
+
+#: includes/admin.php:101 includes/admin.php:102 includes/admin.php:438
+#: includes/defaultValue.php:618
+msgid "Token list"
+msgstr ""
+
+#: includes/admin.php:110 includes/admin.php:111
+#: includes/defaultValue.php:673 includes/views.php:282
+msgid "Sales list"
+msgstr ""
+
+#: includes/admin.php:119 includes/admin.php:120 includes/views.php:247
+msgid "Change token MetaData"
+msgstr ""
+
+#: includes/admin.php:226 includes/admin.php:371
+msgid "Update completed."
+msgstr ""
+
+#: includes/admin.php:273
+msgid "issued completed."
+msgstr ""
+
+#: includes/admin.php:320
+msgid "Create Metadata completed."
+msgstr ""
+
+#: includes/admin.php:413 includes/scripts.php:199
+#: includes/views.php:487
+msgid "Indefinite period"
+msgstr ""
+
+#: includes/admin.php:416 includes/scripts.php:201
+msgid "Expired"
+msgstr ""
+
+#: includes/admin.php:598
+msgid "Simple Token Protection"
+msgstr ""
+
+#: includes/defaultValue.php:23
+msgid "Polygon Mainnet"
+msgstr ""
+
+#: includes/defaultValue.php:24
+msgid "Polygon Testnet(Mumbai)"
+msgstr ""
+
+#: includes/defaultValue.php:44
+msgid "This plugin creates metadata in the \"DIR\""
+msgstr ""
+
+#: includes/defaultValue.php:51
+msgid "SNM general setting"
+msgstr ""
+
+#: includes/defaultValue.php:60
+msgid "Terms of service"
+msgstr ""
+
+#: includes/defaultValue.php:63
+msgid ""
+"I agree to the <a href=\"https://webloco.webolha.com/snpm-terms-of-"
+"service-en\" target=\"_blank\">terms of use.</a>"
+msgstr ""
+
+#: includes/defaultValue.php:76
+msgid "Block Chain network"
+msgstr ""
+
+#: includes/defaultValue.php:85
+msgid "The network of the blockchain to connect to."
+msgstr ""
+
+#: includes/defaultValue.php:93 includes/defaultValue.php:231
+#: includes/defaultValue.php:699
+msgid "creator address"
+msgstr ""
+
+#: includes/defaultValue.php:101
+msgid ""
+"Address to issue Token. And the token creator address displayed on "
+"this site."
+msgstr ""
+
+#: includes/defaultValue.php:110
+msgid "To get your address from MetaMask"
+msgstr ""
+
+#: includes/defaultValue.php:119
+msgid "Current base metadata URI"
+msgstr ""
+
+#: includes/defaultValue.php:122
+msgid ""
+"This is the location where the metadata (the file containing "
+"information such as NFT image, name, and attributes) is stored."
+"<br>When reflecting information such as NFT images and names on "
+"marketplaces such as OpenSea, it is necessary to register the "
+"location where the metadata is stored on the blockchain."
+msgstr ""
+
+#: includes/defaultValue.php:130
+msgid "Base URI for the metadata to set"
+msgstr ""
+
+#: includes/defaultValue.php:146
+msgid "Set the base URI"
+msgstr ""
+
+#: includes/defaultValue.php:148
+msgid ""
+"If you want to set the base URI of metadata on the blockchain, please "
+"click the \"Set URI\" button."
+msgstr ""
+
+#: includes/defaultValue.php:156
+msgid "Token sales balance"
+msgstr ""
+
+#: includes/defaultValue.php:157
+msgid "Update the sales balance of the token."
+msgstr ""
+
+#: includes/defaultValue.php:168
+msgid ""
+"The amount obtained by subtracting a 3% royalty fee from the token "
+"sales will be added to this balance."
+msgstr ""
+
+#: includes/defaultValue.php:219 includes/defaultValue.php:691
+#: includes/nftListTable.php:97 includes/salesListTable.php:81
+msgid "Blockchain network"
+msgstr ""
+
+#: includes/defaultValue.php:223
+msgid "The blockchain network that issued this token."
+msgstr ""
+
+#: includes/defaultValue.php:238
+msgid "The address that issued (did) this token."
+msgstr ""
+
+#: includes/defaultValue.php:246 includes/nftListTable.php:104
+msgid "Display flg"
+msgstr ""
+
+#: includes/defaultValue.php:251
+msgid "Display"
+msgstr ""
+
+#: includes/defaultValue.php:252
+msgid "Do not display"
+msgstr ""
+
+#: includes/defaultValue.php:259
+msgid ""
+"This is the setting to display or not display to the users of this "
+"site."
+msgstr ""
+
+#: includes/defaultValue.php:263 includes/nftListTable.php:105
+msgid "Display order"
+msgstr ""
+
+#: includes/defaultValue.php:270
+msgid ""
+"The smaller the number, the earlier it will be displayed/shown first."
+msgstr ""
+
+#: includes/defaultValue.php:278 includes/defaultValue.php:706
+#: includes/nftListTable.php:98 includes/salesListTable.php:80
+msgid "Token name"
+msgstr ""
+
+#: includes/defaultValue.php:289
+msgid "description"
+msgstr ""
+
+#: includes/defaultValue.php:303 includes/nftListTable.php:100
+#: includes/views.php:475
+msgid "Selling price"
+msgstr ""
+
+#: includes/defaultValue.php:312
+msgid "Unit: matic"
+msgstr ""
+
+#: includes/defaultValue.php:316 includes/nftListTable.php:101
+#: includes/views.php:473
+msgid "Issued"
+msgstr ""
+
+#: includes/defaultValue.php:325
+msgid "The total issuance of this token."
+msgstr ""
+
+#: includes/defaultValue.php:329 includes/nftListTable.php:103
+#: includes/scripts.php:198 includes/views.php:476
+#: includes/views.php:543
+msgid "Expiration date"
+msgstr ""
+
+#: includes/defaultValue.php:336
+msgid ""
+"You can set the expiration date for this token. The unit is \"days.\" "
+"If you set it to \"0\", it will be valid indefinitely."
+msgstr ""
+
+#: includes/defaultValue.php:344 includes/nftListTable.php:102
+#: includes/views.php:474
+msgid "Number of tokens in stock"
+msgstr ""
+
+#: includes/defaultValue.php:345
+msgid ""
+"It is the number of tokens in stock and also the number owned by the "
+"creator."
+msgstr ""
+
+#: includes/defaultValue.php:351 includes/defaultValue.php:492
+msgid "Update stock"
+msgstr ""
+
+#: includes/defaultValue.php:352
+msgid ""
+"If tokens are moved outside of this site, you need to click on "
+"\"Update inventory count\" to adjust the inventory to the correct "
+"number."
+msgstr ""
+
+#: includes/defaultValue.php:356
+msgid "Incinerate token"
+msgstr ""
+
+#: includes/defaultValue.php:364
+msgid "Transfer the token"
+msgstr ""
+
+#: includes/defaultValue.php:365
+msgid ""
+"A token with an expiration date will be limited to one per address. "
+"Therefore, even if multiple tokens are transferred to the same "
+"address, only one will be transferred. Additionally, if the recipient "
+"already owns the token, the transfer will not be executed. Instead, "
+"the expiration date of the token will be extended by the number of "
+"tokens transferred."
+msgstr ""
+
+#: includes/defaultValue.php:373 includes/nftListTable.php:95
+msgid "Token image"
+msgstr ""
+
+#: includes/defaultValue.php:388
+msgid "Note"
+msgstr ""
+
+#: includes/defaultValue.php:492
+msgid "Are you sure you want to update stock?"
+msgstr ""
+
+#: includes/defaultValue.php:496 includes/defaultValue.php:500
+#: includes/defaultValue.php:720 includes/salesListTable.php:84
+#: includes/scripts.php:210
+msgid "Quantity"
+msgstr ""
+
+#: includes/defaultValue.php:497
+msgid "Are you sure you want to incinerate?"
+msgstr ""
+
+#: includes/defaultValue.php:497
+msgid "Incinerate"
+msgstr ""
+
+#: includes/defaultValue.php:501
+msgid "To address"
+msgstr ""
+
+#: includes/defaultValue.php:502
+msgid "Are you sure you want to transfer?"
+msgstr ""
+
+#: includes/defaultValue.php:502
+msgid "Transfer token"
+msgstr ""
+
+#: includes/defaultValue.php:574
+msgid "Limited published this content?"
+msgstr ""
+
+#: includes/defaultValue.php:578
+msgid "No, Do not protect this content."
+msgstr ""
+
+#: includes/defaultValue.php:579
+msgid "Yes, Protect this content."
+msgstr ""
+
+#: includes/defaultValue.php:594
+msgid "Please select an token that can view this content."
+msgstr ""
+
+#: includes/defaultValue.php:599
+msgid "Token scope"
+msgstr ""
+
+#: includes/defaultValue.php:603
+msgid "All Token"
+msgstr ""
+
+#: includes/defaultValue.php:604
+msgid "Select Token"
+msgstr ""
+
+#: includes/defaultValue.php:713 includes/salesListTable.php:83
+msgid "Sales"
+msgstr ""
+
+#: includes/defaultValue.php:727 includes/salesListTable.php:85
+msgid "Customer address"
+msgstr ""
+
+#: includes/nftListTable.php:32
+msgid "edit"
+msgstr ""
+
+#: includes/nftListTable.php:96
+msgid "Token ID"
+msgstr ""
+
+#: includes/nftListTable.php:99
+msgid "Token description"
+msgstr ""
+
+#: includes/nftListTable.php:106
+msgid "date of issue"
+msgstr ""
+
+#: includes/salesListTable.php:79
+msgid "date of sales"
+msgstr ""
+
+#: includes/scripts.php:174
+msgid "Switch blockchain network?"
+msgstr ""
+
+#: includes/scripts.php:175
+msgid "User denied transaction signature."
+msgstr ""
+
+#: includes/scripts.php:176
+msgid ""
+"Transaction was not mined within 50 blocks, please make sure your "
+"transaction was properly sent. Be aware that it might still be mined!"
+msgstr ""
+
+#: includes/scripts.php:177
+msgid "The base URI for metadata is not registered on the blockchain."
+msgstr ""
+
+#: includes/scripts.php:178
+msgid ""
+"This site is currently network enabled for [chainid]. Your MetaMask "
+"network is not [chainid]. Please switch to [chainid]."
+msgstr ""
+
+#: includes/scripts.php:179
+msgid ""
+"A token with the specified token ID does not exist on the blockchain."
+msgstr ""
+
+#: includes/scripts.php:180
+msgid "The blockchain network has not been configured/set up."
+msgstr ""
+
+#: includes/scripts.php:181 includes/views.php:544
+msgid "Number of possessions"
+msgstr ""
+
+#: includes/scripts.php:182
+msgid "Connected to MetaMask"
+msgstr ""
+
+#: includes/scripts.php:183
+msgid ""
+"The registered creator address is different from the connected "
+"address."
+msgstr ""
+
+#: includes/scripts.php:184
+msgid "Please change your MetaMask address."
+msgstr ""
+
+#: includes/scripts.php:185
+msgid "Please connect to MetaMask."
+msgstr ""
+
+#: includes/scripts.php:186
+msgid "Could not connect."
+msgstr ""
+
+#: includes/scripts.php:187
+msgid ""
+"MetaMask is not installed. Please install the MetaMask app and open "
+"it from the browser of that app."
+msgstr ""
+
+#: includes/scripts.php:188
+msgid "MetaMask is not installed."
+msgstr ""
+
+#: includes/scripts.php:189
+msgid "Connected address"
+msgstr ""
+
+#: includes/scripts.php:190
+msgid "NFT sales balance"
+msgstr ""
+
+#: includes/scripts.php:191
+msgid "There is no withdrawable balance."
+msgstr ""
+
+#: includes/scripts.php:192
+msgid "The withdrawal has been completed."
+msgstr ""
+
+#: includes/scripts.php:193
+msgid "The quantity exceeds the owned stock."
+msgstr ""
+
+#: includes/scripts.php:194
+msgid "The quantity has not been entered."
+msgstr ""
+
+#: includes/scripts.php:195
+msgid "The quantity is incorrect."
+msgstr ""
+
+#: includes/scripts.php:196
+msgid "The to address has not been entered."
+msgstr ""
+
+#: includes/scripts.php:197
+msgid "Inventory update has been completed."
+msgstr ""
+
+#: includes/scripts.php:200
+msgid "Please enter the base URI of the metadata."
+msgstr ""
+
+#: includes/scripts.php:202
+msgid ""
+"Token with expiration dates cannot be listed or sold on marketplaces "
+"such as \"Open Sea.\" Additionally, if you already own the same NFT, "
+"the quantity will not increase, but the expiration date will be "
+"extended."
+msgstr ""
+
+#: includes/scripts.php:203
+msgid ""
+"If you change the blockchain network, please do not forget to also "
+"change MetaMasks network to the corresponding network."
+msgstr ""
+
+#: includes/scripts.php:204
+msgid ""
+"The creator address is not registered. Please register the creator "
+"address on the SNM setting screen."
+msgstr ""
+
+#: includes/scripts.php:205
+msgid ""
+"Token issuance process request is in progress! Please wait until it "
+"is completed."
+msgstr ""
+
+#: includes/scripts.php:206
+msgid ""
+"Token issuance process is in progress! Please wait until it is "
+"completed."
+msgstr ""
+
+#: includes/scripts.php:207
+msgid "In process"
+msgstr ""
+
+#: includes/scripts.php:208
+msgid "Purchase successful!"
+msgstr ""
+
+#: includes/scripts.php:209
+msgid "Price"
+msgstr ""
+
+#: includes/shortcode.php:84
+msgid "There are no tokens to display."
+msgstr ""
+
+#: includes/shortcode.php:87 includes/views.php:470
+msgid "Purchase this token"
+msgstr ""
+
+#: includes/views.php:46
+msgid ""
+"The creator address is not registered. Please register the creator "
+"address on the SNPM setting screen."
+msgstr ""
+
+#: includes/views.php:62
+msgid ""
+"You are not connected to MetaMask. Please connect with MetaMask on "
+"the SNPM setting screen."
+msgstr ""
+
+#: includes/views.php:94 includes/views.php:450
+msgid "Connect to MetaMask."
+msgstr ""
+
+#: includes/views.php:105 includes/views.php:261
+msgid "Do you really want to update?"
+msgstr ""
+
+#: includes/views.php:105 includes/views.php:261
+msgid "Update"
+msgstr ""
+
+#: includes/views.php:158
+msgid "Do you really want to issue a new one?"
+msgstr ""
+
+#: includes/views.php:214
+msgid "Do you really want to create a token MetaData?"
+msgstr ""
+
+#: includes/views.php:214
+msgid "Create Token MetaData"
+msgstr ""
+
+#: includes/views.php:446
+msgid "This content is protected."
+msgstr ""
+
+#: includes/views.php:448
+msgid ""
+"If you possess an token with viewing permission, please connect to "
+"MetaMask from the following button."
+msgstr ""
+
+#: includes/views.php:453
+msgid "List of tokens that can access/view this content"
+msgstr ""
+
+#: includes/views.php:454
+msgid ""
+"If you do not possess an token with viewing permission, you can "
+"purchase it from the following after connecting to MetaMask."
+msgstr ""
+
+#: includes/views.php:489
+msgid "days"
+msgstr ""
+
+#: includes/views.php:494
+msgid "Out of stock"
+msgstr ""
+
+#: includes/views.php:540
+msgid "You do not have a token issued by the creator of this site."
+msgstr ""
